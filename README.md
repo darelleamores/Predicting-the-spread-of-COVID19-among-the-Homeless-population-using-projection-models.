@@ -61,10 +61,83 @@ Some of the limitations of the SEIQHFR model to assess the infection rate and mo
 
 Both models estimate the COVID-19 infection for the varying population estimates of homeless individuals in San Bernardino County. Both models produce a high estimate with the Penn model showing that 40% of all homeless are infected while the Stochastic model shows that over 81% of the homeless are infected. A study of homeless shelters in large cities showed that the COVID-19 infection percentage was as high as 66% in San Francisco with other shelters having an average of 25% infected (Speer, 2016). The high numbers reflected in these projections may truly represent a worst-case situation for homeless confined in shelters, but do not represent the true scenario of the unsheltered in SB County. However, simulation of the models overestimated and does not reflect the current situation of COVID-19 cases and deaths in San Bernardino County.  As of June 2020, there has been about 3,000 cases and 150 deaths in San Bernardino County. However, following the Public health interventions such as social distancing and self-isolation may be important for areas where COVID-19 has affected the most in the United States. Recommendations or policies to increase COVID-19 education, resources, and intervention measures for the homeless population would help address future outbreaks of in COVID-19 afflicted areas (CDC, 2020).
 
+# APPENDIXES
 
+Graph 1. Duration Frequency distribution 
 
+![Graph 1  Duration Frequency distribution](https://user-images.githubusercontent.com/50031745/216807279-098b41a5-5958-4ab8-9f0e-648509f58e63.png)
 
+Graph 2. Baseline Simulation without safety protocols
 
+![Graph 2  Baseline Simulation without safety protocols](https://user-images.githubusercontent.com/50031745/216807284-585b4bbb-89ea-4b84-9241-c3341176537d.png)
+
+Graph 3. Ro values 
+
+![Graph 3  Ro values](https://user-images.githubusercontent.com/50031745/216807294-3b05e26e-e916-45ad-ab25-b5259a8ba035.png)
+
+Graph 4. Baseline vs Stay at Home Simulation
+
+![Graph 4  Baseline vs Stay at Home Simulation](https://user-images.githubusercontent.com/50031745/216807305-e73fbbf2-127e-44d8-9743-36cee6d99d53.png)
+
+Graph 5. Baseline vs More Hospital Beds Simulation
+
+![Graph 5  Baseline vs More Hospital Beds Simulation](https://user-images.githubusercontent.com/50031745/216807335-053b420c-098c-4cb2-a61c-7cb3c3de7f75.png)
+
+Graph 6. Baseline vs Social Distancing Day 15 Simulation
+
+![Graph 6  Baseline vs Social Distancing Day 15 Simulation](https://user-images.githubusercontent.com/50031745/216807343-8db41021-236c-4378-82d1-ba61598635f5.png)
+
+Graph 7. Baseline vs Social Distancing at Day 30 Simulation
+
+![Graph 7  Baseline vs Social Distancing at Day 30 Simulation](https://user-images.githubusercontent.com/50031745/216807355-2fdedeba-5727-4834-bc5b-beffe4d8e88c.png)
+
+Graph 8. Baseline vs Social Distancing (Day 15) and Stay at Home Simulatio
+
+![Graph 8  Baseline vs Social Distancing (Day 15) and Stay at Home Simulation](https://user-images.githubusercontent.com/50031745/216807371-43d56ba1-af55-4626-b852-ebf64ea9da8b.png)
+
+Table 1. Estimated number of infections, hospitalizations and fatalities based on the Pennsylvania model 
+
+![Table 1](https://user-images.githubusercontent.com/50031745/216807391-a0e0e253-b58c-4833-9a74-4e8e57fee265.JPG)
+
+Table 2. R EpiModel using a stochastic method
+
+![Table 2  R EpiModel using a stochastic method](https://user-images.githubusercontent.com/50031745/216807402-c680632a-f88b-40c8-adf0-cafce00f0af7.JPG)
+
+![Image S](https://user-images.githubusercontent.com/50031745/216807406-289f9b54-6ed3-4289-98d7-53d73f35d08e.png)
+
+# References 
+Astuti, I., & Ysrafil. (2020). Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2): An overview of viral structure and host response. Diabetes & metabolic syndrome, 14(4), 407-412. doi:10.1016/j.dsx.2020.04.020
+
+Badiaga, S., Raoult, D., & Brouqui, P. (2008). Preventing and controlling emerging and reemerging transmissible diseases in the homeless. Emerging infectious diseases, 14(9), 1353-1359. doi:10.3201/eid1409.080204
+
+CDC. (2020). Coronavirus (COVID-19). Retrieved from https://www.cdc.gov/coronavirus/2019-ncov/index.html
+
+Churches, T. (2020). Churches Health Data Science Blog: Modelling the effects of public health interventions on COVID-19 transmission using R. Retrieved from https://timchurches.github.io/blog/posts/2020-03-18-modelling-the-effects-of-public-health-interventions-on-covid-19-transmission-part-2/
+
+Culhane, D., Treglia, D., & Steif, K. (2020). Estimated Emergency and Observational/Quarantine Capacity Need for the US Homeless Population
+Related to COVID-19 Exposure by County; Projected Hospitalizations,
+Intensive Care Units and Mortality. University of Pennsylvania
+
+Lima, N. N. R., de Souza, R. I., Feitosa, P. W. G., Moreira, J. L. d. S., da Silva, C. G. L., & Neto, M. L. R. (2020). People experiencing homelessness: Their potential exposure to COVID-19. Psychiatry research, 288, 112945-112945. doi:10.1016/j.psychres.2020.112945
+
+Mohammadi, M., Meskini, M., & do Nascimento Pinto, A. L. (2020). 2019 Novel coronavirus (COVID-19) overview. Zeitschrift fur Gesundheitswissenschaften = Journal of public health, 1-9. doi:10.1007/s10389-020-01258-3
+
+Mosites, E. (2020). Assessment of SARS-CoV-2 Infection Prevalence in Homeless Shelters — Four U.S. Cities. MMWR Morb. Mortal. Wkly. 
+
+Newton, A. H., Cardani, A., & Braciale, T. J. (2016). The host immune response in respiratory virus infection: balancing virus clearance and immunopathology. Seminars in immunopathology, 38(4), 471-482. doi:10.1007/s00281-016-0558-0
+
+PINTC. (2019). Homelessness in San Bernardino County: Point-In-Time Count 2019. InlandEmpire.US. Retrieved from https://inlandempire.us/homelessness-in-san-bernardino-county-point-in-time-count-2019/
+
+San Bernardino Homeless Partnership 2019 San Bernardino County Homeless Count and Subpopulation Survey Final Report. San Bernardino, Department of Public Health. 
+SBCPHD. (2020). Corona Virus. 
+
+Shereen, M. A., Khan, S., Kazmi, A., Bashir, N., & Siddique, R. (2020). COVID-19 infection: Origin, transmission, and characteristics of human coronaviruses. Journal of advanced research, 24, 91-98. doi:10.1016/j.jare.2020.03.005
+
+Speer, J. (2016). The right to infrastructure: a struggle for sanitation in Fresno, California homeless encampments. Urban Geogr. 
+
+Stafford, A., & Wood, L. (2017). Tackling Health Disparities for People Who Are Homeless? Start with Social Determinants. International journal of environmental research and public health, 14(12), 1535. doi:10.3390/ijerph14121535
+
+Tsai, J., & Wilson, M. (2020). COVID-19: a potential public health problem for homeless populations. The Lancet. Public health, 5(4), e186-e187. doi:10.1016/S2468-2667(20)3
 
 
 
